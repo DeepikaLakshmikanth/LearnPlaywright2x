@@ -9,7 +9,13 @@ This repository contains Playwright learning exercises and JavaScript concepts o
 - `chapter_03_Identifier_Literals/` - Identifier and literal rules in JavaScript
 - `chapter_04_Javascript_Concept/` - Advanced JavaScript concepts (var, let, const, hoisting, scope)
 - `chapter_05_Literal/` - JavaScript literals (strings, template literals, null, undefined)
+- `chapter_06_Operator/` - JavaScript operators (arithmetic, assignment, increment/decrement, comparison, logical)
 
 ## Notes
 
 This repo is used for learning and practicing Playwright automation along with JavaScript language concepts.
+
+## Usage
+
+- Run JavaScript examples with Node.js: `node <chapter>/<file>.js`
+- Playwright tests should be run from a Playwright project context when applicable.
