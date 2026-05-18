@@ -16,9 +16,22 @@ await page.locator(`table tr:nth-child(${rowIndex}) td[data-column="${columnName
 //logs
 const testName = "Login Test";
 const status = "Passed";
-console.log(`Test: ${testName} - Status: ${status}`); // Test: Login Test - Status: Passed
+const duration = 2.3;
+console.log(`Test: ${testName} - Status: ${status}: ${duration}`); // Test: Login Test - Status: Passed
 
-const payload = ` {
+
+
+const testcase = "checkout_flow";
+const timestamp = Date.now();
+await page.screenshot({ path: `screenshots/${testCase}_${timestamp}.png` });
+
+
+
+
+userId = "pramod";
+role = "admin";
+
+const payload = `{
     "user": "${userId}",
     "role": "${role}";
 "timestamp": "${new Date().toISOString()}"

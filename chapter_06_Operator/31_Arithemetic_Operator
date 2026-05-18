@@ -1,0 +1,11 @@
+let a = 10; b = 3;
+sum = a + b;
+minus = a - b;
+multiply = a * b;
+divide = a / b;
+
+
+console.log(`sum: ${sum}`);
+console.log(`minus: ${minus}`);
+console.log(`multiply: ${multiply}`);
+console.log(`divide: ${divide}`);
