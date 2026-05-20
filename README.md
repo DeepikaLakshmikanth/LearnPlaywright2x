@@ -10,6 +10,9 @@ This repository contains Playwright learning exercises and JavaScript concepts o
 - `chapter_04_Javascript_Concept/` - Advanced JavaScript concepts (var, let, const, hoisting, scope)
 - `chapter_05_Literal/` - JavaScript literals (strings, template literals, null, undefined)
 - `chapter_06_Operator/` - JavaScript operators (arithmetic, assignment, increment/decrement, comparison, logical)
+- `chapter_07_if_else/` - Conditional statements with if, else if, and else
+- `chapter_08_switch_statement/` - Switch statements and case handling
+- `chapter_09_UserInput/` - User input examples and prompt handling
 
 ## Notes
 
