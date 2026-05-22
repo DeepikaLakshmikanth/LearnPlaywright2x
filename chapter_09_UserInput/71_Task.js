@@ -52,7 +52,7 @@ if (score >= 9 && score <= 10) {
 
 // Problem: Given the percentage of test cases passed in a CI build, report build health.
 
-percentage = 49
+percentage = 110
 
 if (percentage === 100) {
     console.log(" 🟢 Green Build ");
@@ -63,19 +63,19 @@ if (percentage === 100) {
 } else if (percentage < 70) {
     console.log(" 🔴 Broken Build (block deployment) ");
 }
-
+else {
+    console.log("Invalid percentage");
+}
 // //Question 5 — Login Logout After Failed Attempts
 
 // Problem: Track failed login attempts. Lock the account after 3 failed attempts.
 
-let attempts = 2;
+let attempts = 5;
 
-if (attempts === 0) {
-    console.log("Login successful");
-} else if (attempts === 1) {
-    console.log("2 attempt left before lockout");
-} else if (attempts === 2) {
-    console.log("1 attempt left before lockout");
+if (attempts < 3) {
+    console.log(` ${3 - attempts} attempt(s) left before lockout`);
 } else if (attempts === 3) {
     console.log("🔒 Account Locked — Contact support");
+} else {
+    console.log("Invalid attempts");
 }

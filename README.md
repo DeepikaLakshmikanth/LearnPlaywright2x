@@ -13,6 +13,7 @@ This repository contains Playwright learning exercises and JavaScript concepts o
 - `chapter_07_if_else/` - Conditional statements with if, else if, and else
 - `chapter_08_switch_statement/` - Switch statements and case handling
 - `chapter_09_UserInput/` - User input examples and prompt handling
+- `chapter_10_Loop/` - Loop constructs and iteration patterns in JavaScript
 
 ## Notes
 
