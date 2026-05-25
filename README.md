@@ -14,6 +14,7 @@ This repository contains Playwright learning exercises and JavaScript concepts o
 - `chapter_08_switch_statement/` - Switch statements and case handling
 - `chapter_09_UserInput/` - User input examples and prompt handling
 - `chapter_10_Loop/` - Loop constructs and iteration patterns in JavaScript
+- `chapter_11_Arrays_Functions/` - Array methods and functional programming patterns in JavaScript
 
 ## Notes
 
