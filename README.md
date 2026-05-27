@@ -15,6 +15,8 @@ This repository contains Playwright learning exercises and JavaScript concepts o
 - `chapter_09_UserInput/` - User input examples and prompt handling
 - `chapter_10_Loop/` - Loop constructs and iteration patterns in JavaScript
 - `chapter_11_Arrays_Functions/` - Array methods and functional programming patterns in JavaScript
+- `chapter_12_Functions/` - JavaScript functions, arrow functions, callbacks, and advanced function concepts
+- `Z_Assessment/` - Assessment exercises and project practice files
 
 ## Notes
 
