@@ -1,0 +1,18 @@
+function calculatePassRate(total, passed) {
+
+    return ((passed / total) * 100).toFixed(1);
+}
+
+console.log(calculatePassRate(100, 85)); // Output: 85.00
+
+//Impure function example
+
+function isPassing(score) {
+    return score >= threshold;
+}
+
+let threshold = 60;
+console.log(isPassing(threshold)); // true
+
+threshold = 50;
+console.log(isPassing(threshold)); // true
