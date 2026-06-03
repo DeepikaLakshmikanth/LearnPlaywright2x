@@ -16,6 +16,7 @@ This repository contains Playwright learning exercises and JavaScript concepts o
 - `chapter_10_Loop/` - Loop constructs and iteration patterns in JavaScript
 - `chapter_11_Arrays_Functions/` - Array methods and functional programming patterns in JavaScript
 - `chapter_12_Functions/` - JavaScript functions, arrow functions, IIFE, default/rest/spread parameters, callbacks, scope, closures, higher-order functions, and pure functions
+- `Chapter_13_String/` - String operations, searching, substring, transform, and string property examples
 - `Z_Assessment/` - Assessment exercises and project practice files
 
 ## Notes
@@ -25,4 +26,13 @@ This repo is used for learning and practicing Playwright automation along with J
 ## Usage
 
 - Run JavaScript examples with Node.js: `node <chapter>/<file>.js`
-- Playwright tests should be run from a Playwright project context when applicable.
+- Use Node.js 16+ for best compatibility.
+- If you want to run Playwright tests, install dependencies and run from the project root:
+  - `npm install`
+  - `npx playwright test`
+
+## Contribution
+
+- Add new practice files to the appropriate chapter folder.
+- Keep chapter folders organized by topic and filename.
+- Commit descriptive messages for new exercises and examples.
