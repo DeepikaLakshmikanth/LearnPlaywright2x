@@ -17,6 +17,7 @@ This repository contains Playwright learning exercises and JavaScript concepts o
 - `chapter_11_Arrays_Functions/` - Array methods and functional programming patterns in JavaScript
 - `chapter_12_Functions/` - JavaScript functions, arrow functions, IIFE, default/rest/spread parameters, callbacks, scope, closures, higher-order functions, and pure functions
 - `Chapter_13_String/` - String operations, searching, substring, transform, and string property examples
+- `chapter_14_Objects/` - JavaScript objects, object properties, methods, getter/setter, deconstruction, and spread operator
 - `Z_Assessment/` - Assessment exercises and project practice files
 
 ## Notes
