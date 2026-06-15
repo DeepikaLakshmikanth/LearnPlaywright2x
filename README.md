@@ -29,10 +29,19 @@ This repo is used for learning and practicing Playwright automation along with J
 ## Usage
 
 - Run JavaScript examples with Node.js: `node <chapter>/<file>.js`
-- Use Node.js 16+ for best compatibility.
+- Use Node.js 18+ for Playwright v1.61 and above (Playwright requires Node >= 18).
 - If you want to run Playwright tests, install dependencies and run from the project root:
   - `npm install`
   - `npx playwright test`
+  - To use the Playwright CLI from this project use `npx playwright <command>` (for example: `npx playwright --version`).
+  - You can also add a convenient npm script in a package's `package.json`:
+
+    ```json
+    "scripts": {
+      "playwright": "playwright"
+    }
+    ```
+    Then run `npm run playwright -- <args>`.
 
 ## Contribution
 
