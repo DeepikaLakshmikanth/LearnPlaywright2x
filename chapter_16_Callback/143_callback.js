@@ -3,7 +3,7 @@ function print() {
 }
 
 function placeOrder(ClipboardItem, pramodCallback) {
-    console.log("Hi, Your order is placed");
+    console.log("Hi, Your order is placed!! " + ClipboardItem + " is Ready");
     pramodCallback();
 }
 
@@ -11,9 +11,9 @@ function placeOrder(ClipboardItem, pramodCallback) {
 placeOrder("Pizza", print);
 //Second way of call back
 placeOrder("Pizza", function () {
-    console.log("Anoy Fn, I am also a function wihtout name!")
+    console.log("Annyonomous Function, I am also a function wihtout name!")
 });
+// Third way of callin the call back function
 placeOrder("Momos", () => {
-    console.log("Arrow Fn, I am also a function without name!");
-
-})
+    console.log("Arrow Function, I am also a function without name!");
+});

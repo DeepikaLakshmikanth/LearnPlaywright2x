@@ -14,11 +14,10 @@ function callWhenTableisReady() {
 
 }
 
-cafe("Burger", callWhenTableisReady);
-cafe("Pizza", function () {
+cafe("Burger", callWhenTableisReady); // First way of calling a callback function
+cafe("Pizza", function () {  // Second way of calling a callback function in annynomous way
     console.log("calling 678686868");
 })
-cafe("Momos", () => {
+cafe("Momos", () => {  // Third way of calling a callback function in annynomous way
     console.log("calling 3247239472");
-
 })

@@ -1,0 +1,27 @@
+{
+  "name": "learnplaywrightbatch2x",
+  "version": "1.0.0",
+  "description": "This repository contains Playwright learning exercises and JavaScript concepts organized by chapter.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeepikaLakshmikanth/LearnPlaywright2x.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DeepikaLakshmikanth/LearnPlaywright2x/issues"
+  },
+  "homepage": "https://github.com/DeepikaLakshmikanth/LearnPlaywright2x#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.61.0"
+  },
+  "dependencies": {
+    "playwright": "^1.61.0"
+  }
+}
