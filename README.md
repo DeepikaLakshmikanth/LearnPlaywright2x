@@ -20,6 +20,7 @@ This repository contains Playwright learning exercises and JavaScript concepts o
 - `chapter_14_Objects/` - JavaScript objects, object properties, methods, getter/setter, destructuring, and spread operator
 - `chapter_15_2D_Array/` - Two-dimensional arrays, matrix traversal, and data-driven examples
 - `chapter_16_Callback/` - Callback functions, asynchronous patterns, and callback parameter handling
+- `chapter_20_TypeScript_Basic/` - TypeScript basics examples and JavaScript practice files
 - `Z_Assessment/` - Assessment exercises and project practice files
 
 ## Notes
