@@ -29,22 +29,23 @@ This repo is used for learning and practicing Playwright automation along with J
 ## Usage
 
 - Run JavaScript examples with Node.js: `node <chapter>/<file>.js`
-- Use Node.js 18+ for Playwright v1.61 and above (Playwright requires Node >= 18).
+- Use Node.js 16+ for best compatibility.
 - If you want to run Playwright tests, install dependencies and run from the project root:
   - `npm install`
   - `npx playwright test`
-  - To use the Playwright CLI from this project use `npx playwright <command>` (for example: `npx playwright --version`).
-  - You can also add a convenient npm script in a package's `package.json`:
-
-    ```json
-    "scripts": {
-      "playwright": "playwright"
-    }
-    ```
-    Then run `npm run playwright -- <args>`.
 
 ## Contribution
 
 - Add new practice files to the appropriate chapter folder.
 - Keep chapter folders organized by topic and filename.
 - Commit descriptive messages for new exercises and examples.
+
+## Playwright Tips
+
+- Run Playwright tests from the project root or the specific chapter folder containing `playwright.config.*` and `tests/`.
+- Install dependencies before running tests: `npm install`.
+- Run a single test in headed mode from the project root:
+  - `npx playwright test tests/example.spec.ts --headed`
+- Common PowerShell pitfall: avoid using `cd /d` in PowerShell; instead use `Set-Location -Path 'D:\path\to\folder'` or open the terminal in the target folder.
+
+If you want this README note expanded with more examples or links to Playwright docs, tell me what to add.
