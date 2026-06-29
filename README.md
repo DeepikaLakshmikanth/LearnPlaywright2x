@@ -20,7 +20,18 @@ This repository contains Playwright learning exercises and JavaScript concepts o
 - `chapter_14_Objects/` - JavaScript objects, object properties, methods, getter/setter, destructuring, and spread operator
 - `chapter_15_2D_Array/` - Two-dimensional arrays, matrix traversal, and data-driven examples
 - `chapter_16_Callback/` - Callback functions, asynchronous patterns, and callback parameter handling
+- `chapter_17_Promise/` - Promise examples and asynchronous flow control in JavaScript
+- `chapter_18_Async_await/` - Async/await patterns and modern asynchronous code examples
+- `chapter_19_Playwright_Basic/` - Basic Playwright test examples and automation scripts
+- `chapter_20_Export_Import/` - JavaScript module export/import examples and utilities
 - `chapter_20_TypeScript_Basic/` - TypeScript basics examples and JavaScript practice files
+- `chapter_21_Objects_Class/` - Object-oriented JavaScript with classes, constructors, and methods
+- `chapter_22_Encapsulation/` - Encapsulation examples using private/public members and class design
+- `chapter_23_Inheritance/` - Inheritance examples, single and multiple style patterns, and class hierarchies
+- `chapter_24_Polymorphism/` - Polymorphism examples and method overriding in OOP
+- `chapter_25_OOPS_IQ/` - Object-oriented programming quiz and practice examples
+- `chapter_26_TypeScript/` - Advanced TypeScript examples and interface practice files
+- `chapter_27_TypeScript_Interface/` - TypeScript interface examples and readonly type patterns
 - `Z_Assessment/` - Assessment exercises and project practice files
 
 ## Notes
